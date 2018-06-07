@@ -137,9 +137,9 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0x58f7c616db1d4ac37a28aa213aca68fda5000183d12774bdcba22b4a5390ef44"));
 
         // DNS Seeding
-        vSeeds.push_back(CDNSSeedData("node1.sytes.net", "node1.sytes.net"));
-        vSeeds.push_back(CDNSSeedData("node2.sytes.net", "node2.sytes.net"));
-        vSeeds.push_back(CDNSSeedData("node3.sytes.net", "node3.sytes.net"));
+        vSeeds.push_back(CDNSSeedData("128.199.214.70", "128.199.214.70"));
+        vSeeds.push_back(CDNSSeedData("209.97.169.58", "209.97.169.58"));
+        vSeeds.push_back(CDNSSeedData("206.189.151.153", "206.189.151.153"));
 
         // Seather addresses start with 'S'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 63);
